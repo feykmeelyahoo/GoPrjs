@@ -2,5 +2,9 @@ github.com/feykmeelyahoo/GoPrjs/dnm v0.0.0-20190301113224-741374ef840d h1:2IQFil
 github.com/feykmeelyahoo/GoPrjs/dnm v0.0.0-20190301113224-741374ef840d/go.mod h1:ahtQ01Ut1KkKl/DVzPdWIsg05tqFeU3iIiVetz2n2BU=
 github.com/feykmeelyahoo/GoPrjs/dnm v0.0.0-20190301113614-26fd31f86047 h1:JYB6zspCkPnp4H2ccvrcrauG/QtnVv07Uu/f+m8wDmA=
 github.com/feykmeelyahoo/GoPrjs/dnm v0.0.0-20190301113614-26fd31f86047/go.mod h1:ahtQ01Ut1KkKl/DVzPdWIsg05tqFeU3iIiVetz2n2BU=
+github.com/feykmeelyahoo/GoPrjs/dnm v0.0.0-20190301113923-34d0587600d9 h1:1hVPYmIJso+sRePhI86nGtavlsbRiWaEAQNA9E1neO8=
+github.com/feykmeelyahoo/GoPrjs/dnm v0.0.0-20190301113923-34d0587600d9/go.mod h1:ahtQ01Ut1KkKl/DVzPdWIsg05tqFeU3iIiVetz2n2BU=
 github.com/feykmeelyahoo/GoPrjs/submodules/b v0.0.0-20190301104533-fe66e64ffa74 h1:FiI1m+1vrKHGfOTvLmWrCIjQV81hOR/7vj+43gcUVoY=
 github.com/feykmeelyahoo/GoPrjs/submodules/b v0.0.0-20190301104533-fe66e64ffa74/go.mod h1:3tRWe1kJh9ou7Gmt3ydxJoHpltZhtgyTejS3tHDP/bE=
+github.com/feykmeelyahoo/GoPrjs/submodules/b v0.0.0-20190301113923-34d0587600d9 h1:bCRXUxHA7eJZ9kNkYYFyrNwddVlLMnaBaNnWyh4qn3c=
+github.com/feykmeelyahoo/GoPrjs/submodules/b v0.0.0-20190301113923-34d0587600d9/go.mod h1:3tRWe1kJh9ou7Gmt3ydxJoHpltZhtgyTejS3tHDP/bE=

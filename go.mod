@@ -2,4 +2,7 @@ module github.com/feykmeelyahoo/GoPrjs
 
 go 1.12
 
-require github.com/feykmeelyahoo/GoPrjs/dnm v0.0.0-20190301113614-26fd31f86047 // indirect
+require (
+	github.com/feykmeelyahoo/GoPrjs/dnm v0.0.0-20190301113923-34d0587600d9 // indirect
+	github.com/feykmeelyahoo/GoPrjs/submodules/b v0.0.0-20190301113923-34d0587600d9 // indirect
+)
