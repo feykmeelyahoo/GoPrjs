@@ -1,3 +1,3 @@
-module github.com/go-modules-by-example/submodules/a
+module github.com/feykmeelyahoo/GoPrjs/submodules/a
 
-require github.com/go-modules-by-example/submodules/b v0.1.1
+require github.com/feykmeelyahoo/GoPrjs/submodules/b v0.0.1

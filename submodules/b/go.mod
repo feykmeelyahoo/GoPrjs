@@ -1,1 +1,1 @@
-module github.com/go-modules-by-example/submodules/b
+module github.com/feykmeelyahoo/GoPrjs/submodules/b
