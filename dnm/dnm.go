@@ -1,3 +1,3 @@
-//package b
+package dnm
 
 const Name = "Serkan"
