@@ -1,3 +1,3 @@
 package dnm
 
-const Name = "Serkan"
+const Name = "Serkan Basdemir"
