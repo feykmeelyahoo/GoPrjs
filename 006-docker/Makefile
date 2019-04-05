@@ -8,7 +8,7 @@ LOCALIP=$(shell ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -E
 build: .compile
 	# GOOS=linux  GOARCH=amd64 go build -o app
 	docker build -t feykmeel/kubehostname:${VERSION} .
-#	rm -f kubehostname
+	rm -f kubehostname
 
 push:
 	docker push feykmeel/kubehostname:${VERSION}
