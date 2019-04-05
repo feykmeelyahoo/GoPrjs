@@ -15,7 +15,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Println("hostname:", podHostname)
 
-	myKubeNode := getEnv("KUBENODE", "defaulthost")
+	myKubeNode := getEnv("MY_NODE_NAME", "defaulthost")
 
 	fmt.Println(myKubeNode)
 	// for _, e := range os.Environ() {
