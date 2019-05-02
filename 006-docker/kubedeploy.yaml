@@ -1,0 +1,47 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: kubehostname
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: kubehost
+    spec:
+      containers:
+      - name: kubehost
+        image: feykmeel/kubehostname:0.0.2
+        ports:
+        - containerPort: 8080
+        env:
+          - name: MY_NODE_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: spec.nodeName
+          - name: MY_POD_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.name
+          - name: MY_POD_NAMESPACE
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.namespace
+          - name: MY_POD_IP
+            valueFrom:
+              fieldRef:
+                fieldPath: status.podIP
+ 
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: kubehost-service
+spec:
+  selector:
+    app: kubehost
+  ports:
+    - protocol: TCP
+      port: 8080
+      nodePort: 31540
+  type: NodePort

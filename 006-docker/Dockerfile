@@ -1,5 +1,6 @@
-FROM alpine
+FROM golang:1.12.1
 
-RUN apk update && apk add flite
+# RUN apk update && apk add vim
 ADD kubehostname /kubehostname
-ENTRYPOINT ["/kubehostname"]
+RUN ls /
+CMD ["/kubehostname"]
